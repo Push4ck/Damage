@@ -1,4 +1,0 @@
-echo PLEASE TYPE YOUR USERNAME AND PASSWORD IN THE FIELDS BELOW.
-set /p u=Username:
-set /p p=Password:
-start clean.bat %u% %p%
