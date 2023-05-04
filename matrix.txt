@@ -1,0 +1,20 @@
+@echo off
+
+set counter=0
+
+:loop
+
+if %counter% equ 5 goto :EOF
+set /a counter+=1
+
+:matrix
+
+color 04
+
+echo %random%%random%%random%%random%%random%
+
+echo %random%%random%%random%%random%%random%
+
+goto matrix
+
+goto loop

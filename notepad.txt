@@ -1,0 +1,9 @@
+@ECHO off
+
+top
+
+START %SystemRoot%\system32\notepad.exe
+
+wscript "<PATH_OF_".vbs"_FILE>"
+
+GOTO top
